@@ -1,3 +1,13 @@
+# Services Description and solutions
+Given a long URL, the service should generate a shorter and unique alias of it.
+When the user hits a short link, the service should redirect to the original link.
+URL redirection  happen in real-time with minimal latency.
+Shortened links  not be predictable.
+#My Trade off
+Links will expire after a standard default time span.
+Ability to delete and update link from database .
+Max secutiy with JWT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
