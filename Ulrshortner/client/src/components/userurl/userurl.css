@@ -1,0 +1,58 @@
+
+.url{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .urlForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .urlInput {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgb(199, 196, 196);
+    border-radius: 10px;
+  }
+  
+  .urlInput:focus {
+    outline: none;
+  }
+  
+  .urlButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  .short-url{
+    margin-top: 20px;
+  
+  }
+  
+  li{
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  .shorturlBtn{
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
